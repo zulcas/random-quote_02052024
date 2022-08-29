@@ -22,4 +22,23 @@ const quotes = [
         author: "John Kenneth Galbraith"
     },
     {
+        quote:
+            "God save me from my friends. I can protect myself from my enemies.",
+        author: "Claude Louis Hector de Villars "
+    },
+    {
+        quote: "The price of anything is the amount of life you exchange for it.",
+        author: "David Thoreau"
+    },
+    {
+        quote:
+            "Life is like a landscape. You live in the midst of it but can describe it only from the vantage point of distance. ",
+        author: "Charles Lindbergh"
+    },
+    {
+        quote:
+            "A critic is someone who never actually goes to the battle, yet who afterwards comes out shooting the wounded.",
+        author: " Tyne Daly"
+    }
+];
   ```
