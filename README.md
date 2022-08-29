@@ -5,4 +5,4 @@
 
 ## Instrucciones
 
-Renombra el app.js y crea el tuyo de 0.
+Renombra el script.js y crea el tuyo de 0.
