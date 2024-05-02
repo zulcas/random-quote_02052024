@@ -32,14 +32,14 @@ const quotes = [
 
 //1) Obtenemos botón HTML y elementos HTML a cambiar
 let quoteGeneratorButton = document.querySelector('#generate-quote');
-let quoteText = document.querySelector(".quote--text");
-let quoteAuthor = document.querySelector(".quote--author");
+let quoteText = document.querySelector(".quote--text").textContent;
+let quoteAuthor = document.querySelector(".quote--author").textContent;
 
 //2) Creamos evento para cambiar la cita aleatoriamente
 quoteGeneratorButton.addEventListener('click', () => {
     //Cambiamos texto de la cita
-    document.querySelector(".quote--text").textContent = quotes[Math.floor(Math.random()*quotes.length)].quote;
+    quoteText = quotes[Math.floor(Math.random()*quotes.length)].quote;
     //Cambiamos autor
-    document.querySelector(".quote--author").textContent = quotes[Math.floor(Math.random()*quotes.length)].author;
+    quoteAuthor = quotes[Math.floor(Math.random()*quotes.length)].author;
 })
 
